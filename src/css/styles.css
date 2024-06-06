@@ -9,10 +9,12 @@
 body {
    align-items: center;
    text-align: center;
+   background-color: rgb(201, 201, 201);
 
 }
 
 .jogo-container {
+    
     display: flex;
     flex-wrap: wrap; 
     gap: 2px; 
@@ -32,7 +34,7 @@ body {
     padding: 30px;
     width: 120px;
     height: 120px;
-    background-color: white;
+    background-color: rgb(201, 201, 201);
     cursor: pointer;
    
 }
@@ -42,7 +44,15 @@ body {
     width: 30px;
     height: 30px;
     cursor: pointer;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    
+}
+
+.msg {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
     
 }
 
