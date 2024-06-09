@@ -12,23 +12,24 @@
     <h1>JOGO DA VELHA</h1>
     <hr>
     <div class = 'msg'>
-    <p id ='qntX'></p> <p>VS</p> <p id='qntO'></p>
+    <p>X: </p>&nbsp;<p id ='qntX'></p>&nbsp;&nbsp;<p> VS </p>&nbsp;&nbsp;&nbsp;<p> O: </p>&nbsp;<p id='qntO'></p>
     </div>
     <div class = 'jogo-container'>
-    <button class = 'botoesjogo' type="button"name="btn1" id="btn1"></button>
-    <button class = 'botoesjogo' type="button"name="btn2" id="btn2"></button>
-    <button class = 'botoesjogo' type="button"name="btn3" id="btn3"></button>
-    <button class = 'botoesjogo' type="button"name="btn4" id="btn4"></button>
-    <button class = 'botoesjogo' type="button"name="btn5" id="btn5"></button>
-    <button class = 'botoesjogo' type="button"name="btn6" id="btn6"></button>
-    <button class = 'botoesjogo' type="button"name="btn7" id="btn7"></button>
-    <button class = 'botoesjogo' type="button"name="btn8" id="btn8"></button>
-    <button class = 'botoesjogo' type="button"name="btn9" id="btn9"></button>
+    <button class = 'botoesjogo' type="button"name="btn1" id="btn1" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn2" id="btn2" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn3" id="btn3" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn4" id="btn4" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn5" id="btn5" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn6" id="btn6" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn7" id="btn7" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn8" id="btn8" onclick="clickMovimento(this)"></button>
+    <button class = 'botoesjogo' type="button"name="btn9" id="btn9" onclick="clickMovimento(this)"></button>
     
     </div>
-    <p id="vezDoJogador"></p>
-   <button type="button" id = "btnReset"><i class="fa-solid fa-arrows-rotate"></i></button>
-    <footer>by: @jrfgnt</footer>
+    <p id="vezDoJogador">Vez do X!</p>
+
+   <button type="button" id = "btnReset"><i class="fa-solid fa-arrows-rotate" onclick="iniciaNovaRodada()"></i></button>
+    <footer>by: @juniorntt</footer>
 
     
     <script src="src/javascript/scrypt.js"></script>
